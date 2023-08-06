@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -14,9 +14,9 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +24,81 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+html, body, :root {
+  @apply w-full overflow-hidden
+}
+
+body {
+  @apply bg-black text-white
+}
+
+.content {
+  @apply relative w-screen h-screen overflow-auto
+}
+
+.screen {
+  @apply w-[960px] h-[540px]
+}
+
+.slide-wrap {
+  background-color: #ccc;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 100%;
+}
+.slide-box {
+  height: auto;
+  margin: .5%;
+  width: 24%;
+}
+.slide-box a {
+  background-color: #fff;
+  color: #222;
+  display: block;
+  text-decoration: none;
+}
+.slide-box img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+.slide-box p {
+  font-weight: bold;
+  padding: 10px;
+  margin:.5rem auto;
+}
+
+.modal {
+
+}
+
+.neon {
+  display: inline-block;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: .05em;
+  text-shadow: 0 1px 30px #35c19f, 0 0 12px #fff, 2px 5px 60px #990a52;
+}
+.neon > span {
+  animation: blink 3s infinite alternate;
+}
+@keyframes blink {
+  40% {
+    opacity: .85;
+  }
+  42% {
+    opacity: .4;
+  }
+  43% {
+    opacity: .85;
+  }
+  45% {
+    opacity: .4;
+  }
+  46% {
+    opacity: .85;
+  }
 }
