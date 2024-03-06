@@ -2,30 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-} */
-
-/* body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
-
 html, body, :root {
   @apply w-full overflow-hidden
 }
@@ -39,40 +15,47 @@ body {
 }
 
 .screen {
-  @apply w-[960px] h-[540px]
+  @apply w-[970px] h-[580px] rounded overflow-y-auto p-0 bg-slate-50
 }
 
-.slide-wrap {
-  background-color: #ccc;
-  display: flex;
-  margin: 0 auto;
-  max-width: 1024px;
-  width: 100%;
-}
-.slide-box {
-  height: auto;
-  margin: .5%;
-  width: 24%;
-}
-.slide-box a {
-  background-color: #fff;
-  color: #222;
-  display: block;
-  text-decoration: none;
-}
-.slide-box img {
-  display: block;
-  height: auto;
-  width: 100%;
-}
-.slide-box p {
-  font-weight: bold;
-  padding: 10px;
-  margin:.5rem auto;
+.wrapper {
+  @apply p-0 w-[970px] scale-100 origin-top-left
 }
 
-.modal {
+.top-image img {
+  @apply w-full h-auto block
+}
 
+.item-row-container {
+  @apply m-16 flex bg-red-400
+}
+
+.item-date {
+  @apply m-2 p-2 bg-cyan-500 rounded-3xl text-
+}
+
+.item-img {
+
+}
+
+.item-img img {
+
+}
+
+.item-desc {
+
+}
+
+.footer {
+  @apply p-9 bg-slate-700 flex
+}
+
+.footer-left {
+  @apply p-1 flex-auto text-white
+}
+
+.footer-right {
+  @apply w-8 h-8
 }
 
 .neon {

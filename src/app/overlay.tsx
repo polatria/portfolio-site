@@ -5,14 +5,11 @@ export default function Overlay() {
     <>
       <div className="neon absolute top-10 left-10 text-xs">
         <div>
-          Harmonia Design
+          Portfolio Page
         </div>
       </div>
-      <div className="absolute bottom-10 left-10 right-10 text-xs">
-        <Modal buttonLabel="About us" />
-      </div>
       <div className="absolute bottom-10 right-10 text-xs">
-        © 2023 Harmonia Design Inc.
+        © 2024 Tomoki S.
       </div>
     </>
   );
