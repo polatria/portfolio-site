@@ -84,10 +84,31 @@ export function ScreenHtml(props: JSX.IntrinsicElements["group"]) {
           </div>
           <div className="item-row-container">
             <div className="item-date">2023</div>
-            <div className="item-img">
-              <Image src={dummy} alt={""} />
+            <div className="item-desc">
+              <div className="item-text">
+                <h1>Work1</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+                  malesuada sapien et tellus tempus ultricies. Donec et rhoncus
+                  nunc. Pellentesque tincidunt dignissim quam in ullamcorper.
+                  Integer sodales, neque sed dapibus ornare, nisl eros ornare
+                  diam, nec posuere sapien nunc ac odio. Pellentesque eu est nec
+                  neque imperdiet mollis sed eu lectus. Suspendisse potenti.
+                  Aliquam sed commodo erat, at tincidunt tellus. Curabitur eget
+                  semper metus, a luctus urna. Aliquam erat volutpat. Aliquam
+                  venenatis justo ut metus pulvinar sodales. Duis tincidunt
+                  convallis justo egestas tincidunt. Donec molestie, odio eget
+                  ultrices varius, quam lorem accumsan mauris, at malesuada
+                  felis ligula ac ante. Pellentesque laoreet nec lorem vitae
+                  fringilla. Nullam posuere risus at orci pharetra, non
+                  malesuada nulla maximus. Vestibulum at facilisis augue, a
+                  facilisis nunc.
+                </p>
+              </div>
+              <div className="item-img">
+                <Image src={dummy} alt={""} />
+              </div>
             </div>
-            <div className="item-desc"></div>
           </div>
           <div className="footer">
             <div className="footer-left">

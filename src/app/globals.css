@@ -27,23 +27,27 @@ body {
 }
 
 .item-row-container {
-  @apply m-16 flex bg-red-400
+  @apply m-16 p-2 flex bg-red-400
 }
 
 .item-date {
-  @apply m-2 p-2 bg-cyan-500 rounded-3xl text-
+  @apply m-2 p-2 bg-cyan-500 rounded-3xl flex-1
 }
 
 .item-img {
-
+  @apply pt-4 bg-yellow-400 flex
 }
 
 .item-img img {
-
+  @apply w-56 block
 }
 
 .item-desc {
+  @apply m-2 bg-green-400 flex-auto
+}
 
+.item-desc h1 {
+  @apply text-2xl
 }
 
 .footer {
