@@ -8,15 +8,11 @@ Files: ./public/imac_white.glb [1MB] > imac_white-transformed.glb [88.12KB] (91%
 
 import * as THREE from "three";
 import React from "react";
-import {
-  useGLTF,
-  Html,
-  MeshReflectorMaterial,
-} from "@react-three/drei";
+import { useGLTF, Html, MeshReflectorMaterial } from "@react-three/drei";
 import { GLTF } from "three-stdlib";
 import Image from "next/image";
-import top from "../../public/Frame1.png"
-import githubicon from "../../public/github-mark-white.svg"
+import top from "../../public/Frame1.png";
+import githubicon from "../../public/github-mark-white.svg";
 import dummy from "../../public/dummyimg.png";
 
 type GLTFResult = GLTF & {
@@ -83,36 +79,230 @@ export function ScreenHtml(props: JSX.IntrinsicElements["group"]) {
             <Image src={top} alt={""} />
           </div>
           <div className="item-row-container">
-            <div className="item-date">2023</div>
-            <div className="item-desc">
+            <div className="item-prof">
               <div className="item-text">
-                <h1>Work1</h1>
+                <h1>Profile</h1>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-                  malesuada sapien et tellus tempus ultricies. Donec et rhoncus
-                  nunc. Pellentesque tincidunt dignissim quam in ullamcorper.
-                  Integer sodales, neque sed dapibus ornare, nisl eros ornare
-                  diam, nec posuere sapien nunc ac odio. Pellentesque eu est nec
-                  neque imperdiet mollis sed eu lectus. Suspendisse potenti.
-                  Aliquam sed commodo erat, at tincidunt tellus. Curabitur eget
-                  semper metus, a luctus urna. Aliquam erat volutpat. Aliquam
-                  venenatis justo ut metus pulvinar sodales. Duis tincidunt
-                  convallis justo egestas tincidunt. Donec molestie, odio eget
-                  ultrices varius, quam lorem accumsan mauris, at malesuada
-                  felis ligula ac ante. Pellentesque laoreet nec lorem vitae
-                  fringilla. Nullam posuere risus at orci pharetra, non
-                  malesuada nulla maximus. Vestibulum at facilisis augue, a
-                  facilisis nunc.
+                  ソフトウェア技術を使ってメディアエンターテインメントの体験をさらに豊かにしていくことをミッションとし、現在は業務用プロジェクターメーカーのソフトウェア開発に従事。
+                </p>
+                <p>
+                  昨年一人旅で初めてインドに行き結構ぼられたが、英語力には多少の自信がある。休日はジムに行くことが多く、ベンチプレスは60kgまで上げられるようになった。
                 </p>
               </div>
-              <div className="item-img">
-                <Image src={dummy} alt={""} />
+            </div>
+            <div className="item-experiences">
+              <div className="item-text">
+                <h1>Experiences</h1>
+              </div>
+              <div className="item-row">
+                <div className="item-icon-area">
+                  <div className="item-icon">🏢</div>
+                </div>
+                <div className="item-desc">
+                  <div className="item-title">
+                    <h1>パナソニックコネクト株式会社</h1>
+                    <p>2020.4 - 現在</p>
+                  </div>
+                  <div className="item-title">
+                    <h2>開発中シミュレータアプリ</h2>
+                    <p>2023.9 - 現在</p>
+                  </div>
+                  <div className="item-text">
+                    <p>
+                      Webベースで3DCGを活用したシミュレータアプリを開発中
+                      <br />
+                      技術スタック: React, Next.js, Three.js, AWS
+                    </p>
+                  </div>
+                  <div className="item-title">
+                    <h2>プロジェクターコントロールWindowsソフト</h2>
+                    <p>2023.7 - 現在</p>
+                  </div>
+                  <div className="item-text">
+                    <p>
+                      顧客であるSIerの業務用プロジェクターの設置調整業務を支援する機器制御アプリケーションの企画設計、開発を担当。Windowsで動作し、主に機器制御機能と3Dシミュレーション機能を持つ。アプリ全体の企画提案、要件定義、基本設計、仕様作成を推進。
+                      <br />
+                      技術スタック: .NET, C++, Unity, C#
+                    </p>
+                  </div>
+                  <div className="item-title">
+                    <h2>ボディトラッキング</h2>
+                    <p>2023.1 - 2023.12</p>
+                  </div>
+                  <div className="item-text">
+                    <p>技術スタック: Python</p>
+                  </div>
+                  <div className="item-title">
+                    <h2>プロジェクター投影3Dシミュレータ</h2>
+                    <p>2022.11 - 2023.6</p>
+                  </div>
+                  <div className="item-text">
+                    <p>
+                      自社製品である業務用プロジェクターを利用する製品を検証することができる社内向けシミュレーションソフトウェアの改善を担当。主に新規機能の追加を担当。
+                      <br />
+                      技術スタック: Unity, C#, C++
+                    </p>
+                  </div>
+                  <div className="item-title">
+                    <h2>
+                      新規事業検討において客先でPoCを実施するためのiOSアプリの開発
+                    </h2>
+                    <p>2022.4 - 2022.7</p>
+                  </div>
+                  <div className="item-text">
+                    <p>
+                      自社の新規事業の価値検証を行うため、自社のプロジェクターやフラットディスプレイ、カメラなどを遠隔制御するiOSアプリの開発を担当。
+                      開発リーダーとして、仕様策定、基本設計、実装を進めるとともにスケジュール管理や協力会社の工数管理も担当。
+                      <br />
+                      技術スタック: Swift, SwiftUI, C++
+                    </p>
+                  </div>
+                  <div className="item-title">
+                    <h2>BtoB向けクラウドビデオ会議サービス機能改善</h2>
+                    <p>2020.7 - 2022.3</p>
+                  </div>
+                  <div className="item-text">
+                    <p>
+                      企業向けのビデオ会議システムをクラウド化し、Webブラウザ、iOS/Androidアプリ、専用ハードでアクセス可能なBtoB向けクラウドビデオ会議サービスの改善を担当。iOS/Android両OSのアプリのフロントエンド開発を主担当として携わり、設計、実装と協力会社の工数管理を担当。
+                      <br />
+                      技術スタック: Swift, Objective-C, Java, Kotlin, AWS EC2,
+                      WebRTC
+                    </p>
+                  </div>
+                  <div className="item-img">
+                    <Image src={dummy} alt={""} />
+                  </div>
+                </div>
+              </div>
+              <div className="item-row">
+                <div className="item-icon-area">
+                  <div className="item-icon">🎓</div>
+                </div>
+                <div className="item-desc">
+                  <div className="item-title">
+                    <h1>大阪大学大学院</h1>
+                    <p>2018.4 - 2020.3</p>
+                  </div>
+                  <div className="item-text">
+                    <p>
+                      <ul>
+                        <li>
+                          基礎工学研究科機能創成専攻のバイオイメージンググループに所属
+                        </li>
+                        <li>
+                          研究テーマはHMDを使ったビデオシースルーシステム（現在でいうApple
+                          VisionPro）
+                        </li>
+                        <li>
+                          アイトラッキングを用いて視界映像のフォーカスを調節して現実とのインタラクションを容易にする研究に従事
+                        </li>
+                      </ul>
+                      <br />
+                      技術スタック: Unity, C#, OpenGL, C++
+                      <br />
+                      <a href="https://github.com/polatria/augfocus">Github</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="item-row">
+                <div className="item-icon-area">
+                  <div className="item-icon">🎓</div>
+                </div>
+                <div className="item-desc">
+                  <div className="item-title">
+                    <h1>大阪大学大学</h1>
+                    <p>2013.4 - 2018.3</p>
+                  </div>
+                  <div className="item-text">
+                    <p>
+                      <ul>
+                        <li>基礎工学部システム科学科生物工学コースに所属</li>
+                        <li>
+                          卒論は骨伝導で4chの立体音響を頭部に直接伝えるヘッドホンシステムの開発と評価
+                        </li>
+                      </ul>
+                      <br />
+                      技術スタック: Unity, C#, .NET
+                      <br />
+                      <a href="https://github.com/polatria/E3DAS">Github</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="item-others">
+              <div className="item-text">
+                <h1>Others</h1>
+              </div>
+              <div className="item-row">
+                <div className="item-desc">
+                  <div className="item-title">
+                    <h2>資格 AWS Solutions Architect - Associate</h2>
+                    <p>2021.10</p>
+                  </div>
+                  <div className="item-title">
+                    <h2>九州大学リーンスタートアップ演習</h2>
+                    <p>2021</p>
+                  </div>
+                  <div className="item-title">
+                    <h2>社内勉強会 WebRTC</h2>
+                    <p>
+                      2021
+                      <br />
+                      <a href="https://zenn.dev/tornlch/articles/0427bc3fae8c96">
+                        Zenn記事
+                      </a>
+                    </p>
+                  </div>
+                  <div className="item-title">
+                    <h2>社内勉強会 AWS EC2</h2>
+                    <p>
+                      2020
+                      <br />
+                      <a href="https://zenn.dev/tornlch/articles/9e263859030c0c">
+                        Zenn記事
+                      </a>
+                    </p>
+                  </div>
+                  <div className="item-title">
+                    <h2>インターン チームラボ</h2>
+                    <p>
+                      2019.3
+                      <br />
+                      <a href="https://github.com/polatria/imgupp_teamLabSkillup">
+                        Gihtub
+                      </a>
+                      <br />
+                      Instagram風SNSサイトを構築
+                      <br />
+                      技術スタック: PHP(Laravel), PostgreSQL, HTML, CSS
+                    </p>
+                  </div>
+                  <div className="item-title">
+                    <h2>インターン ソニー株式会社</h2>
+                    <p>
+                      2019.2
+                      <br />
+                      スマートスピーカーを題材にしたハッカソン (2位)
+                      <br />
+                      技術スタック: HTML, CSS, JavaScript
+                    </p>
+                  </div>
+                  <div className="item-title">
+                    <h2>
+                      短期留学 Italian Design Summer School @ University of
+                      Bologna
+                    </h2>
+                    <p>2016.8</p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div className="footer">
             <div className="footer-left">
-              <div>Contact: tomoki.sawai(a)outlook.com</div>
+              <div>Contact: tomoki.sawai[at]outlook.com</div>
             </div>
             <div className="footer-right">
               <a href="https://github.com/polatria">

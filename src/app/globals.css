@@ -7,7 +7,7 @@ html, body, :root {
 }
 
 body {
-  @apply bg-black text-white
+  @apply bg-black
 }
 
 .content {
@@ -27,15 +27,23 @@ body {
 }
 
 .item-row-container {
-  @apply m-16 p-2 flex bg-red-400
+  @apply mt-6 mb-10 ml-16 mr-16 p-2
 }
 
-.item-date {
-  @apply m-2 p-2 bg-cyan-500 rounded-3xl flex-1
+.item-row {
+  @apply flex
+}
+
+.item-icon-area {
+  @apply mt-4 mr-4 flex-1
+}
+
+.item-icon {
+  @apply w-10 h-10 rounded-full bg-slate-200 m-auto text-center leading-10
 }
 
 .item-img {
-  @apply pt-4 bg-yellow-400 flex
+  @apply pt-4 flex
 }
 
 .item-img img {
@@ -43,11 +51,31 @@ body {
 }
 
 .item-desc {
-  @apply m-2 bg-green-400 flex-auto
+  @apply flex-auto pt-4
 }
 
-.item-desc h1 {
-  @apply text-2xl
+.item-title {
+  @apply mb-2
+}
+
+.item-title h1 {
+  @apply font-bold text-base
+}
+
+.item-title h2 {
+  @apply text-base
+}
+
+.item-title p {
+  @apply text-gray-500 text-sm
+}
+
+.item-text {
+  @apply flex-auto text-base
+}
+
+.item-text h1 {
+  @apply text-2xl font-bold mt-4
 }
 
 .footer {
