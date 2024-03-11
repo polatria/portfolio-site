@@ -8,7 +8,7 @@ export default function Overlay() {
           Portfolio Page
         </div>
       </div>
-      <div className="absolute bottom-10 right-10 text-xs">
+      <div className="absolute bottom-10 right-10 text-xs text-white">
         © 2024 Tomoki S.
       </div>
     </>

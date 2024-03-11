@@ -86,7 +86,7 @@ export function ScreenHtml(props: JSX.IntrinsicElements["group"]) {
                   ソフトウェア技術を使ってメディアエンターテインメントの体験をさらに豊かにしていくことをミッションとし、現在は業務用プロジェクターメーカーのソフトウェア開発に従事。
                 </p>
                 <p>
-                  昨年一人旅で初めてインドに行き結構ぼられたが、英語力には多少の自信がある。休日はジムに行くことが多く、ベンチプレスは60kgまで上げられるようになった。
+                  昨年一人旅でインドに行き結構ぼられたが、英語力には多少の自信がある。最近ジムに通い始め、ベンチプレスは60kgまで上げられるようになった。1993年大阪生まれ。
                 </p>
               </div>
             </div>
@@ -109,69 +109,74 @@ export function ScreenHtml(props: JSX.IntrinsicElements["group"]) {
                   </div>
                   <div className="item-text">
                     <p>
-                      Webベースで3DCGを活用したシミュレータアプリを開発中
+                      Webベースで3DCGを活用したシミュレータアプリの開発を担当
                       <br />
-                      技術スタック: React, Next.js, Three.js, AWS
+                      Skills: React, Next.js, Three.js, AWS
                     </p>
                   </div>
+                  <div className="item-partline" />
                   <div className="item-title">
-                    <h2>プロジェクターコントロールWindowsソフト</h2>
+                    <h2>プロジェクターコントロールアプリ</h2>
                     <p>2023.7 - 現在</p>
                   </div>
                   <div className="item-text">
                     <p>
-                      顧客であるSIerの業務用プロジェクターの設置調整業務を支援する機器制御アプリケーションの企画設計、開発を担当。Windowsで動作し、主に機器制御機能と3Dシミュレーション機能を持つ。アプリ全体の企画提案、要件定義、基本設計、仕様作成を推進。
+                      業務用プロジェクターの機器制御やシミュレーションができるWindowsアプリの企画、設計、開発を担当
                       <br />
-                      技術スタック: .NET, C++, Unity, C#
+                      Skills: .NET, C++, Unity, C#
                     </p>
                   </div>
+                  <div className="item-partline" />
                   <div className="item-title">
-                    <h2>ボディトラッキング</h2>
+                    <h2>ジム向けソリューション検討</h2>
                     <p>2023.1 - 2023.12</p>
                   </div>
                   <div className="item-text">
-                    <p>技術スタック: Python</p>
+                    <p>
+                      トレーニングの動きを計測し、プロジェクターでグラフィカルにフィードバックするアプリに使うOSSの評価を実施した
+                      <br />
+                      Skills: Python
+                    </p>
                   </div>
+                  <div className="item-partline" />
                   <div className="item-title">
                     <h2>プロジェクター投影3Dシミュレータ</h2>
                     <p>2022.11 - 2023.6</p>
                   </div>
                   <div className="item-text">
                     <p>
-                      自社製品である業務用プロジェクターを利用する製品を検証することができる社内向けシミュレーションソフトウェアの改善を担当。主に新規機能の追加を担当。
+                      業務用プロジェクター用のシミュレーションソフトウェアの新規機能の追加を担当した
                       <br />
-                      技術スタック: Unity, C#, C++
+                      Skills: Unity, C#, C++
                     </p>
                   </div>
+                  <div className="item-partline" />
                   <div className="item-title">
-                    <h2>
-                      新規事業検討において客先でPoCを実施するためのiOSアプリの開発
-                    </h2>
+                    <h2>デバイス遠隔操作ハブアプリ</h2>
                     <p>2022.4 - 2022.7</p>
                   </div>
                   <div className="item-text">
                     <p>
-                      自社の新規事業の価値検証を行うため、自社のプロジェクターやフラットディスプレイ、カメラなどを遠隔制御するiOSアプリの開発を担当。
-                      開発リーダーとして、仕様策定、基本設計、実装を進めるとともにスケジュール管理や協力会社の工数管理も担当。
+                      プロジェクターやディスプレイ、カメラなどを遠隔操作できるiOSアプリの仕様設計、実装をリードした
                       <br />
-                      技術スタック: Swift, SwiftUI, C++
+                      Skills: Swift, SwiftUI, C++
                     </p>
                   </div>
+                  <div className="item-partline" />
                   <div className="item-title">
-                    <h2>BtoB向けクラウドビデオ会議サービス機能改善</h2>
+                    <h2>クラウドビデオ会議サービスのモバイルアプリ</h2>
                     <p>2020.7 - 2022.3</p>
                   </div>
                   <div className="item-text">
                     <p>
-                      企業向けのビデオ会議システムをクラウド化し、Webブラウザ、iOS/Androidアプリ、専用ハードでアクセス可能なBtoB向けクラウドビデオ会議サービスの改善を担当。iOS/Android両OSのアプリのフロントエンド開発を主担当として携わり、設計、実装と協力会社の工数管理を担当。
+                      企業向けクラウドビデオ会議サービスのiOS/Android両OSのアプリのフロントエンド開発の設計、実装をリードした
                       <br />
-                      技術スタック: Swift, Objective-C, Java, Kotlin, AWS EC2,
-                      WebRTC
+                      Skills: Swift, Objective-C, Java, Kotlin, AWS EC2, WebRTC
                     </p>
                   </div>
-                  <div className="item-img">
+                  {/* <div className="item-img">
                     <Image src={dummy} alt={""} />
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="item-row">
@@ -197,8 +202,7 @@ export function ScreenHtml(props: JSX.IntrinsicElements["group"]) {
                           アイトラッキングを用いて視界映像のフォーカスを調節して現実とのインタラクションを容易にする研究に従事
                         </li>
                       </ul>
-                      <br />
-                      技術スタック: Unity, C#, OpenGL, C++
+                      Skills: Unity, C#, OpenGL, C++
                       <br />
                       <a href="https://github.com/polatria/augfocus">Github</a>
                     </p>
@@ -222,8 +226,7 @@ export function ScreenHtml(props: JSX.IntrinsicElements["group"]) {
                           卒論は骨伝導で4chの立体音響を頭部に直接伝えるヘッドホンシステムの開発と評価
                         </li>
                       </ul>
-                      <br />
-                      技術スタック: Unity, C#, .NET
+                      Skills: Unity, C#, .NET
                       <br />
                       <a href="https://github.com/polatria/E3DAS">Github</a>
                     </p>
@@ -238,12 +241,49 @@ export function ScreenHtml(props: JSX.IntrinsicElements["group"]) {
               <div className="item-row">
                 <div className="item-desc">
                   <div className="item-title">
-                    <h2>資格 AWS Solutions Architect - Associate</h2>
-                    <p>2021.10</p>
+                    <h2>ポートフォリオサイト</h2>
+                    <p>
+                      2024.3
+                      <br />
+                      Skills: React, Next.js, Three.js, Typescript
+                      <br />
+                      <a href="https://github.com/polatria/portfolio-site">
+                        Gihtub
+                      </a>
+                    </p>
+                  </div>
+                  <div className="item-title">
+                    <h2>資格 TOEIC Listening & Reading</h2>
+                    <p>
+                      2024.1
+                      <br />
+                      <a href="https://iibc.cloudcerts.jp/viewer/cert/5aJemlWBgNAqgu68NgOA5VmIbVAVQ8JR5ypy4r49GODEXcr3KrzE3x6TDr7kPyLb">
+                        855点
+                      </a>
+                    </p>
                   </div>
                   <div className="item-title">
                     <h2>九州大学リーンスタートアップ演習</h2>
-                    <p>2021</p>
+                    <p>
+                      2022.9 - 2022.11
+                      <br />
+                      デザイン思考に基づくビジネス検討手法を学んで実践し、成果発表を行った
+                      (
+                      <a href="https://qrec.kyushu-u.ac.jp/news/20220604_01/">
+                        参照
+                      </a>
+                      )
+                    </p>
+                  </div>
+                  <div className="item-title">
+                    <h2>資格 AWS Solutions Architect - Associate</h2>
+                    <p>
+                      2021.10
+                      <br />
+                      <a href="https://www.credly.com/badges/d229167d-5765-4848-9805-c5f2c9304f01/public_url">
+                        バッジ
+                      </a>
+                    </p>
                   </div>
                   <div className="item-title">
                     <h2>社内勉強会 WebRTC</h2>
@@ -270,13 +310,13 @@ export function ScreenHtml(props: JSX.IntrinsicElements["group"]) {
                     <p>
                       2019.3
                       <br />
+                      Instagram風SNSサイトを構築
+                      <br />
+                      Skills: PHP(Laravel), PostgreSQL, HTML, CSS
+                      <br />
                       <a href="https://github.com/polatria/imgupp_teamLabSkillup">
                         Gihtub
                       </a>
-                      <br />
-                      Instagram風SNSサイトを構築
-                      <br />
-                      技術スタック: PHP(Laravel), PostgreSQL, HTML, CSS
                     </p>
                   </div>
                   <div className="item-title">
@@ -286,7 +326,7 @@ export function ScreenHtml(props: JSX.IntrinsicElements["group"]) {
                       <br />
                       スマートスピーカーを題材にしたハッカソン (2位)
                       <br />
-                      技術スタック: HTML, CSS, JavaScript
+                      Skills: HTML, CSS, JavaScript
                     </p>
                   </div>
                   <div className="item-title">
@@ -294,7 +334,12 @@ export function ScreenHtml(props: JSX.IntrinsicElements["group"]) {
                       短期留学 Italian Design Summer School @ University of
                       Bologna
                     </h2>
-                    <p>2016.8</p>
+                    <p>
+                      2016.8
+                      <br />
+                      イタリアのボローニャ大学でプロダクトデザインの研修を受け、成果発表を行った
+                      (<a href="http://italiandesign.ing.unibo.it/">参照</a>)
+                    </p>
                   </div>
                 </div>
               </div>

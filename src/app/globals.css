@@ -31,11 +31,11 @@ body {
 }
 
 .item-row {
-  @apply flex
+  @apply mb-4 flex
 }
 
 .item-icon-area {
-  @apply mt-4 mr-4 flex-1
+  @apply mr-4 text-start
 }
 
 .item-icon {
@@ -43,7 +43,7 @@ body {
 }
 
 .item-img {
-  @apply pt-4 flex
+  @apply flex
 }
 
 .item-img img {
@@ -51,7 +51,7 @@ body {
 }
 
 .item-desc {
-  @apply flex-auto pt-4
+  @apply flex-auto
 }
 
 .item-title {
@@ -63,19 +63,31 @@ body {
 }
 
 .item-title h2 {
-  @apply text-base
+  @apply mt-2 text-base
 }
 
 .item-title p {
   @apply text-gray-500 text-sm
 }
 
+.item-title a {
+  @apply font-semibold underline
+}
+
 .item-text {
-  @apply flex-auto text-base
+  @apply flex-auto text-base mb-2
 }
 
 .item-text h1 {
-  @apply text-2xl font-bold mt-4
+  @apply text-2xl font-bold mb-2 mt-4
+}
+
+.item-text a {
+  @apply font-semibold underline
+}
+
+.item-partline {
+  @apply h-[1px] w-full bg-slate-400
 }
 
 .footer {
