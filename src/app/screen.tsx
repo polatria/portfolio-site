@@ -215,7 +215,7 @@ export function ScreenHtml(props: JSX.IntrinsicElements["group"]) {
                 </div>
                 <div className="item-desc">
                   <div className="item-title">
-                    <h1>大阪大学大学</h1>
+                    <h1>大阪大学</h1>
                     <p>2013.4 - 2018.3</p>
                   </div>
                   <div className="item-text">
